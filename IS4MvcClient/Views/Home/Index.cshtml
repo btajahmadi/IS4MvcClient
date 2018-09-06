@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@if(User.Identity.IsAuthenticated)
+{
+    <h3>@User.Identity.Name</h3>
+
+}
+<h2>Index</h2>
+
